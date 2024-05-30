@@ -12,6 +12,7 @@ export default async function admin() {
   return (
     <div>
       <h1>Items</h1>
+
       <div>
         {items?.map((item) => (
           <div key={item.id}>{item.name}</div>
