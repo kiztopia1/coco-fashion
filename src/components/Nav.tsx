@@ -27,9 +27,9 @@ export default function Nav() {
           <a className="text-gray-700 hover:text-gray-900" href="#">
             Shop
           </a>
-          <a className="text-gray-700 hover:text-gray-900" href="#">
-            Contact Us
-          </a>
+          <Link href="/about" className="text-gray-700 hover:text-gray-900">
+            About
+          </Link>
           <Link
             href="/checkout"
             className="relative flex justify-center align-middle"
