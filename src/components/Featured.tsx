@@ -34,7 +34,7 @@ export default async function Featured() {
       <ItemList />
       <h1 className="pl-4 pt-6 text-4xl font-bold">Best Seller</h1>
       <ItemList />
-      <ItemList />
+      <hr />
     </div>
   );
 }
